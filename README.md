@@ -59,7 +59,12 @@ https://assignment-explorer.herokuapp.com/
  2. In manage.py, change os.environ.setdefault("DJANGO_SETTINGS_MODULE", "home.settings.dev") to os.environ.setdefault("DJANGO_SETTINGS_MODULE", "home.settings.prod")
  3. In home/settings/prod.py,  add the url(at which you will be hosting the website) in ALLOWED_HOSTS array.
 
-
+## Nodejs and Python versions (required)
+```
+node version = 16.3.0
+npm version = 8.1.0
+python verison = 3.8.10
+```
 ## Backend development workflow
 
   Ubuntu (Prefered)
