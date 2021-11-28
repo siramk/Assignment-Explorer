@@ -7,7 +7,8 @@
 This project contains a Django Rest API with a React frontend. Users are able to signup and login to their account. Teachers are able to create MCQ(multiple choice question) assignments. Students are able to answer those assignments and view their results.
 
 # Demo Video
-https://drive.google.com/file/d/1b07_R1yacylhsO-pQBX_SggmC4subiFZ/view?usp=sharing
+Youtube: https://youtu.be/2D6AOI4xcOk
+Drive: https://drive.google.com/file/d/1b07_R1yacylhsO-pQBX_SggmC4subiFZ/view?usp=sharing
 
 Also added in gitHub repo (demo_video/demo_video_siram_nikhil.mp4)
 
