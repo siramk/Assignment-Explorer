@@ -62,7 +62,7 @@ https://assignment-explorer.herokuapp.com/
 
 ## Backend development workflow
 
-  Ubuntu
+  Ubuntu (Prefered)
 
 ```bash
 
