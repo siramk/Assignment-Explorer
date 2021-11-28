@@ -10,7 +10,7 @@ This project contains a Django Rest API with a React frontend. Users are able to
 https://drive.google.com/file/d/1b07_R1yacylhsO-pQBX_SggmC4subiFZ/view?usp=sharing
 
 
-# Website URL
+# Website URL (deployed already)
 
 https://assignment-explorer.herokuapp.com/
 
