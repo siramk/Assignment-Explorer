@@ -16,7 +16,7 @@ https://assignment-explorer.herokuapp.com/
 
 
 # Demo User credentials
-
+(you can also create new users if required)
 ### Teacher
 **username**: Peter (case sensitive)
 **password**: Welcome#1234
