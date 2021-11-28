@@ -4,6 +4,5 @@ env
 **/migrations
 node_modules
 build
-package-lock.json
 api/email/credentials.json
 api/email/token.json
