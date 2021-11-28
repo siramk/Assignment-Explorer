@@ -10,19 +10,18 @@ This project contains a Django Rest API with a React frontend. Users are able to
 https://drive.google.com/file/d/1b07_R1yacylhsO-pQBX_SggmC4subiFZ/view?usp=sharing
 
 
-# Website URL
+# Website URL (deployed already)
 
 https://assignment-explorer.herokuapp.com/
 
-
 # Demo User credentials
-
+(you can also create new users if required)
 ### Teacher
 **username**: Peter (case sensitive)
 **password**: Welcome#1234
 
 ### Student
-**username**: Tony
+**username**: Tony (case sensitive)
 **password**: Welcome#1234
 
 
@@ -53,7 +52,13 @@ https://assignment-explorer.herokuapp.com/
 ### Common
 1.  Authentication (signup, login, logout)
   
-  
+
+
+# Changes to be made for deploying in production (not required for localhost)
+ 1. change baseUrl in src/axios.js
+ 2. In manage.py, change os.environ.setdefault("DJANGO_SETTINGS_MODULE", "home.settings.dev") to os.environ.setdefault("DJANGO_SETTINGS_MODULE", "home.settings.prod")
+ 3. In home/settings/prod.py,  add the url(at which you will be hosting the website) in ALLOWED_HOSTS array.
+
 
 ## Backend development workflow
 
@@ -63,7 +68,15 @@ https://assignment-explorer.herokuapp.com/
 
 virtualenv env
 
+source env/bin/activate
+
 pip install -r requirements.txt
+
+python manage.py makemigrations
+
+python manage.py makemigrations users
+
+python manage.py makemigrations api
 
 python manage.py runserver
 
