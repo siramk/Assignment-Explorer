@@ -61,7 +61,7 @@ https://assignment-explorer.herokuapp.com/
 
 ## Nodejs and Python versions (required)
 ```
-node version = 16.3.0
+node version = 16.13.0
 npm version = 8.1.0
 python verison = 3.8.10
 ```
