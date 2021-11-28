@@ -63,7 +63,15 @@ https://assignment-explorer.herokuapp.com/
 
 virtualenv env
 
+source env/bin/activate
+
 pip install -r requirements.txt
+
+python manage.py makemigrations
+
+python manage.py makemigrations users
+
+python manage.py makemigrations api
 
 python manage.py runserver
 
