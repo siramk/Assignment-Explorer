@@ -68,7 +68,7 @@ https://assignment-explorer.herokuapp.com/
 
 virtualenv env
 
-source env/bin/activate
+source env/bin/activate ( for ubuntu) or .\env\Scripts\activate.ps1 (for windows powershell)
 
 pip install -r requirements.txt
 
