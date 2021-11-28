@@ -62,13 +62,13 @@ https://assignment-explorer.herokuapp.com/
 
 ## Backend development workflow
 
-  
+  Ubuntu
 
-```json
+```bash
 
 virtualenv env
 
-source env/bin/activate ( for ubuntu) or .\env\Scripts\activate.ps1 (for windows powershell)
+source env/bin/activate 
 
 pip install -r requirements.txt
 
@@ -82,13 +82,33 @@ python manage.py runserver
 
 ```
 
+Powershell Windows
+
+
+```bash
+
+virtualenv env
+
+.\env\Scripts\activate.ps1
+
+pip install -r requirements.txt
+
+python manage.py makemigrations
+
+python manage.py makemigrations users
+
+python manage.py makemigrations api
+
+python manage.py runserver
+
+```
   
 
 ## Frontend development workflow
 
   
 
-```json
+```bash
 
 npm install
 
@@ -102,7 +122,7 @@ npm start
 
   
 
-```json
+```bash
 
 npm run build
 
