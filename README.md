@@ -26,7 +26,7 @@ https://assignment-explorer.herokuapp.com/
 **password**: Welcome#1234
 
 ### Student
-**username**: Tony
+**username**: Tony (case sensitive)
 **password**: Welcome#1234
 
 
